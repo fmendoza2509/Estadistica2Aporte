@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estadistica2Aporte", "Estadistica2Aporte\Estadistica2Aporte.csproj", "{8BDB72D3-ADB9-4F49-9CB1-66533E66D485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BDB72D3-ADB9-4F49-9CB1-66533E66D485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDB72D3-ADB9-4F49-9CB1-66533E66D485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDB72D3-ADB9-4F49-9CB1-66533E66D485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDB72D3-ADB9-4F49-9CB1-66533E66D485}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1537AF72-9300-4209-A155-21FDA458395C}
+	EndGlobalSection
+EndGlobal
