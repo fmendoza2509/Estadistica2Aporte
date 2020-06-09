@@ -10,11 +10,20 @@ using System.Windows.Forms;
 
 namespace Estadistica2Aporte
 {
-    public partial class Form1 : Form
+    public partial class Estadística : Form
     {
-        public Form1()
+        public Estadística()
         {
             InitializeComponent();
+        }
+
+        private void Estadística_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iBtnCerrar_Click(object sender, EventArgs e){
+            Application.Exit();
         }
     }
 }
