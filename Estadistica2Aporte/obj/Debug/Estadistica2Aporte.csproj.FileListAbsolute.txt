@@ -8,3 +8,13 @@ C:\Users\frang\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadis
 C:\Users\frang\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.csproj.CoreCompileInputs.cache
 C:\Users\frang\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.exe
 C:\Users\frang\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.pdb
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\bin\Debug\Estadistica2Aporte.exe.config
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\bin\Debug\Estadistica2Aporte.exe
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\bin\Debug\Estadistica2Aporte.pdb
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.csprojAssemblyReference.cache
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.Estadística.resources
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.Properties.Resources.resources
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.csproj.GenerateResource.cache
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.csproj.CoreCompileInputs.cache
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.exe
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.pdb
