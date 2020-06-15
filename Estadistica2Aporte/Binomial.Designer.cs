@@ -231,7 +231,6 @@
             this.rBtnIgual.Name = "rBtnIgual";
             this.rBtnIgual.Size = new System.Drawing.Size(64, 21);
             this.rBtnIgual.TabIndex = 9;
-            this.rBtnIgual.TabStop = true;
             this.rBtnIgual.Text = "Igual";
             this.rBtnIgual.UseVisualStyleBackColor = false;
             // 
@@ -314,6 +313,7 @@
             this.btnCalcular.TabIndex = 15;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = false;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnBorrar
             // 
