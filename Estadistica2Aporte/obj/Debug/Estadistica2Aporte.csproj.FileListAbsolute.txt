@@ -18,3 +18,7 @@ C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2
 C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.csproj.CoreCompileInputs.cache
 C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.exe
 C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.pdb
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.Binomial.resources
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.Exponencial.resources
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.Normal.resources
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.Poisson.resources

@@ -48,5 +48,40 @@ namespace Estadistica2Aporte
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+        //Método para abrir form dentro de un panel
+        private void AbrirForm(object f)
+        {
+            if (this.PanelContenedor.Controls.Count > 0)
+            {
+                this.PanelContenedor.Controls.RemoveAt(0);
+            }
+            Form fh = f as Form;
+            fh.TopLevel = false;//con esto le decimos que es un formulario de nivel inferior
+            fh.Dock = DockStyle.Fill;//con esto hacemos que se acople a nuestro contenedor
+            this.PanelContenedor.Controls.Add(fh);//Lo agregamos al panel
+            //Establecemos la instancia como contenedor de datos de nuestro panel
+            this.PanelContenedor.Tag = fh;
+            //Mostramos en formulario
+            fh.Show();
+        }
+
+        private void btnBinomial_Click(object sender, EventArgs e)
+        {
+            /*******************************************************************
+             * Llamamos a nuestra funcion Abrir form y le pasamos el parametro *
+             * que será del tipo del formulario que vamos a mostrar            *
+             *******************************************************************/
+            AbrirForm(new Binomial());
+        }
+
+        private void btExponencial_Click(object sender, EventArgs e)
+        {
+            AbrirForm(new Exponencial());
+        }
+
+        private void btnPoisson_Click(object sender, EventArgs e)
+        {
+            AbrirForm(new Poisson());
+        }
     }
 }

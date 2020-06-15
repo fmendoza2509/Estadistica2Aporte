@@ -34,18 +34,18 @@
             this.iBtnMinimizar = new System.Windows.Forms.PictureBox();
             this.iBtnCerrar = new System.Windows.Forms.PictureBox();
             this.PanelMenu = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnNormal = new System.Windows.Forms.Button();
+            this.btnPoisson = new System.Windows.Forms.Button();
+            this.btExponencial = new System.Windows.Forms.Button();
+            this.btnBinomial = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PanelContenedor = new System.Windows.Forms.Panel();
-            this.btnBinomial = new System.Windows.Forms.Button();
-            this.btExponencial = new System.Windows.Forms.Button();
-            this.btnPoisson = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.btnNormal = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.Header.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iBtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iBtnCerrar)).BeginInit();
@@ -122,6 +122,98 @@
             this.PanelMenu.Size = new System.Drawing.Size(200, 512);
             this.PanelMenu.TabIndex = 1;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
+            this.panel4.Location = new System.Drawing.Point(0, 175);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(19, 38);
+            this.panel4.TabIndex = 8;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
+            this.panel3.Location = new System.Drawing.Point(0, 219);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(19, 38);
+            this.panel3.TabIndex = 8;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
+            this.panel2.Location = new System.Drawing.Point(0, 263);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(19, 38);
+            this.panel2.TabIndex = 8;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
+            this.panel1.Location = new System.Drawing.Point(0, 307);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(19, 38);
+            this.panel1.TabIndex = 7;
+            // 
+            // btnNormal
+            // 
+            this.btnNormal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(231)))), ((int)(((byte)(223)))));
+            this.btnNormal.FlatAppearance.BorderSize = 0;
+            this.btnNormal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
+            this.btnNormal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNormal.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNormal.Location = new System.Drawing.Point(18, 307);
+            this.btnNormal.Name = "btnNormal";
+            this.btnNormal.Size = new System.Drawing.Size(182, 38);
+            this.btnNormal.TabIndex = 6;
+            this.btnNormal.Text = "Normal";
+            this.btnNormal.UseVisualStyleBackColor = false;
+            // 
+            // btnPoisson
+            // 
+            this.btnPoisson.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(231)))), ((int)(((byte)(223)))));
+            this.btnPoisson.FlatAppearance.BorderSize = 0;
+            this.btnPoisson.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
+            this.btnPoisson.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPoisson.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPoisson.Location = new System.Drawing.Point(18, 263);
+            this.btnPoisson.Name = "btnPoisson";
+            this.btnPoisson.Size = new System.Drawing.Size(182, 38);
+            this.btnPoisson.TabIndex = 5;
+            this.btnPoisson.Text = "Poisson";
+            this.btnPoisson.UseVisualStyleBackColor = false;
+            this.btnPoisson.Click += new System.EventHandler(this.btnPoisson_Click);
+            // 
+            // btExponencial
+            // 
+            this.btExponencial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(231)))), ((int)(((byte)(223)))));
+            this.btExponencial.FlatAppearance.BorderSize = 0;
+            this.btExponencial.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
+            this.btExponencial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btExponencial.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btExponencial.Location = new System.Drawing.Point(18, 219);
+            this.btExponencial.Name = "btExponencial";
+            this.btExponencial.Size = new System.Drawing.Size(182, 38);
+            this.btExponencial.TabIndex = 4;
+            this.btExponencial.Text = "Exponencial";
+            this.btExponencial.UseVisualStyleBackColor = false;
+            this.btExponencial.Click += new System.EventHandler(this.btExponencial_Click);
+            // 
+            // btnBinomial
+            // 
+            this.btnBinomial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(231)))), ((int)(((byte)(223)))));
+            this.btnBinomial.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBinomial.FlatAppearance.BorderSize = 0;
+            this.btnBinomial.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
+            this.btnBinomial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBinomial.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBinomial.Location = new System.Drawing.Point(18, 175);
+            this.btnBinomial.Name = "btnBinomial";
+            this.btnBinomial.Size = new System.Drawing.Size(182, 38);
+            this.btnBinomial.TabIndex = 3;
+            this.btnBinomial.Text = "Binomial";
+            this.btnBinomial.UseVisualStyleBackColor = false;
+            this.btnBinomial.Click += new System.EventHandler(this.btnBinomial_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
@@ -152,103 +244,15 @@
             this.PanelContenedor.Size = new System.Drawing.Size(631, 512);
             this.PanelContenedor.TabIndex = 2;
             // 
-            // btnBinomial
-            // 
-            this.btnBinomial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(231)))), ((int)(((byte)(223)))));
-            this.btnBinomial.FlatAppearance.BorderSize = 0;
-            this.btnBinomial.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
-            this.btnBinomial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBinomial.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBinomial.Location = new System.Drawing.Point(18, 175);
-            this.btnBinomial.Name = "btnBinomial";
-            this.btnBinomial.Size = new System.Drawing.Size(182, 38);
-            this.btnBinomial.TabIndex = 3;
-            this.btnBinomial.Text = "Binomial";
-            this.btnBinomial.UseVisualStyleBackColor = false;
-            // 
-            // btExponencial
-            // 
-            this.btExponencial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(231)))), ((int)(((byte)(223)))));
-            this.btExponencial.FlatAppearance.BorderSize = 0;
-            this.btExponencial.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
-            this.btExponencial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btExponencial.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btExponencial.Location = new System.Drawing.Point(18, 219);
-            this.btExponencial.Name = "btExponencial";
-            this.btExponencial.Size = new System.Drawing.Size(182, 38);
-            this.btExponencial.TabIndex = 4;
-            this.btExponencial.Text = "Exponencial";
-            this.btExponencial.UseVisualStyleBackColor = false;
-            // 
-            // btnPoisson
-            // 
-            this.btnPoisson.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(231)))), ((int)(((byte)(223)))));
-            this.btnPoisson.FlatAppearance.BorderSize = 0;
-            this.btnPoisson.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
-            this.btnPoisson.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPoisson.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPoisson.Location = new System.Drawing.Point(18, 263);
-            this.btnPoisson.Name = "btnPoisson";
-            this.btnPoisson.Size = new System.Drawing.Size(182, 38);
-            this.btnPoisson.TabIndex = 5;
-            this.btnPoisson.Text = "Poisson";
-            this.btnPoisson.UseVisualStyleBackColor = false;
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(631, 512);
+            this.pictureBox3.Size = new System.Drawing.Size(628, 509);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
-            // 
-            // btnNormal
-            // 
-            this.btnNormal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(231)))), ((int)(((byte)(223)))));
-            this.btnNormal.FlatAppearance.BorderSize = 0;
-            this.btnNormal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
-            this.btnNormal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNormal.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNormal.Location = new System.Drawing.Point(18, 307);
-            this.btnNormal.Name = "btnNormal";
-            this.btnNormal.Size = new System.Drawing.Size(182, 38);
-            this.btnNormal.TabIndex = 6;
-            this.btnNormal.Text = "Normal";
-            this.btnNormal.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
-            this.panel1.Location = new System.Drawing.Point(0, 307);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(19, 38);
-            this.panel1.TabIndex = 7;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
-            this.panel2.Location = new System.Drawing.Point(0, 263);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(19, 38);
-            this.panel2.TabIndex = 8;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
-            this.panel3.Location = new System.Drawing.Point(0, 219);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(19, 38);
-            this.panel3.TabIndex = 8;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(198)))), ((int)(((byte)(182)))));
-            this.panel4.Location = new System.Drawing.Point(0, 175);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(19, 38);
-            this.panel4.TabIndex = 8;
             // 
             // Estadística
             // 
@@ -289,12 +293,12 @@
         private System.Windows.Forms.Button btnPoisson;
         private System.Windows.Forms.Button btExponencial;
         private System.Windows.Forms.Button btnBinomial;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button btnNormal;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 
