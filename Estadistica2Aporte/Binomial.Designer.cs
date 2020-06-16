@@ -47,10 +47,10 @@
             this.txtDex = new System.Windows.Forms.TextBox();
             this.txtPrbabilidad = new System.Windows.Forms.TextBox();
             this.rBtnIgual = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.rBtnMenor = new System.Windows.Forms.RadioButton();
+            this.rBtnMayor = new System.Windows.Forms.RadioButton();
+            this.rBtnMenorIgual = new System.Windows.Forms.RadioButton();
+            this.rBtnMayorIgual = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
@@ -226,74 +226,72 @@
             // 
             this.rBtnIgual.AutoSize = true;
             this.rBtnIgual.BackColor = System.Drawing.Color.Transparent;
+            this.rBtnIgual.Checked = true;
             this.rBtnIgual.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rBtnIgual.Location = new System.Drawing.Point(29, 31);
             this.rBtnIgual.Name = "rBtnIgual";
             this.rBtnIgual.Size = new System.Drawing.Size(64, 21);
             this.rBtnIgual.TabIndex = 9;
+            this.rBtnIgual.TabStop = true;
             this.rBtnIgual.Text = "Igual";
             this.rBtnIgual.UseVisualStyleBackColor = false;
             // 
-            // radioButton1
+            // rBtnMenor
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(124, 31);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(74, 21);
-            this.radioButton1.TabIndex = 10;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Menor";
-            this.radioButton1.UseVisualStyleBackColor = false;
+            this.rBtnMenor.AutoSize = true;
+            this.rBtnMenor.BackColor = System.Drawing.Color.Transparent;
+            this.rBtnMenor.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBtnMenor.Location = new System.Drawing.Point(124, 31);
+            this.rBtnMenor.Name = "rBtnMenor";
+            this.rBtnMenor.Size = new System.Drawing.Size(74, 21);
+            this.rBtnMenor.TabIndex = 10;
+            this.rBtnMenor.Text = "Menor";
+            this.rBtnMenor.UseVisualStyleBackColor = false;
             // 
-            // radioButton2
+            // rBtnMayor
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(227, 31);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(73, 21);
-            this.radioButton2.TabIndex = 11;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Mayor";
-            this.radioButton2.UseVisualStyleBackColor = false;
+            this.rBtnMayor.AutoSize = true;
+            this.rBtnMayor.BackColor = System.Drawing.Color.Transparent;
+            this.rBtnMayor.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBtnMayor.Location = new System.Drawing.Point(227, 31);
+            this.rBtnMayor.Name = "rBtnMayor";
+            this.rBtnMayor.Size = new System.Drawing.Size(73, 21);
+            this.rBtnMayor.TabIndex = 11;
+            this.rBtnMayor.Text = "Mayor";
+            this.rBtnMayor.UseVisualStyleBackColor = false;
             // 
-            // radioButton3
+            // rBtnMenorIgual
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(316, 31);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(128, 21);
-            this.radioButton3.TabIndex = 12;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Menor o igual";
-            this.radioButton3.UseVisualStyleBackColor = false;
+            this.rBtnMenorIgual.AutoSize = true;
+            this.rBtnMenorIgual.BackColor = System.Drawing.Color.Transparent;
+            this.rBtnMenorIgual.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBtnMenorIgual.Location = new System.Drawing.Point(316, 31);
+            this.rBtnMenorIgual.Name = "rBtnMenorIgual";
+            this.rBtnMenorIgual.Size = new System.Drawing.Size(128, 21);
+            this.rBtnMenorIgual.TabIndex = 12;
+            this.rBtnMenorIgual.Text = "Menor o igual";
+            this.rBtnMenorIgual.UseVisualStyleBackColor = false;
             // 
-            // radioButton4
+            // rBtnMayorIgual
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(459, 31);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(127, 21);
-            this.radioButton4.TabIndex = 13;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Mayor o igual";
-            this.radioButton4.UseVisualStyleBackColor = false;
+            this.rBtnMayorIgual.AutoSize = true;
+            this.rBtnMayorIgual.BackColor = System.Drawing.Color.Transparent;
+            this.rBtnMayorIgual.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBtnMayorIgual.Location = new System.Drawing.Point(459, 31);
+            this.rBtnMayorIgual.Name = "rBtnMayorIgual";
+            this.rBtnMayorIgual.Size = new System.Drawing.Size(127, 21);
+            this.rBtnMayorIgual.TabIndex = 13;
+            this.rBtnMayorIgual.Text = "Mayor o igual";
+            this.rBtnMayorIgual.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.rBtnIgual);
-            this.groupBox1.Controls.Add(this.radioButton4);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.rBtnMayorIgual);
+            this.groupBox1.Controls.Add(this.rBtnMenor);
+            this.groupBox1.Controls.Add(this.rBtnMenorIgual);
+            this.groupBox1.Controls.Add(this.rBtnMayor);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 337);
             this.groupBox1.Name = "groupBox1";
@@ -326,6 +324,7 @@
             this.btnBorrar.TabIndex = 16;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = false;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // pictureBox1
             // 
@@ -342,7 +341,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(631, 512);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnBorrar);
@@ -396,10 +395,10 @@
         private System.Windows.Forms.TextBox txtDex;
         private System.Windows.Forms.TextBox txtPrbabilidad;
         private System.Windows.Forms.RadioButton rBtnIgual;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton rBtnMenor;
+        private System.Windows.Forms.RadioButton rBtnMayor;
+        private System.Windows.Forms.RadioButton rBtnMenorIgual;
+        private System.Windows.Forms.RadioButton rBtnMayorIgual;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnBorrar;

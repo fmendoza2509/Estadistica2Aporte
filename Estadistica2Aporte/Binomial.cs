@@ -85,12 +85,118 @@ namespace Estadistica2Aporte
         private double Dex(double n, double p) {
             return Math.Sqrt(Vx(Convert.ToDouble(txtEnsayos.Text),Convert.ToDouble(txtAcierto.Text)));
         }
+        //Método para validar el campo de ensayos
+        private bool ValEnsayo() {
+            if (Convert.ToDouble(txtEnsayos.Text)<=1){
+                return false;
+            }else {
+                return true;
+            }
+        }
+        //Método para validar el campo acierto
+        private bool ValAcierto() {
+            if ((Convert.ToDouble(txtAcierto.Text) >= 0) && (Convert.ToDouble(txtAcierto.Text) <= 1)) {
+                return true;
+            }else {
+                return false;
+            }
+        }
+        //Método para validar el numero de intentos
+        private bool ValIntentos() {
+            if (Convert.ToDouble(txtIntentos.Text) < 0)
+            {
+                return false;
+            }else {
+                return true;
+            }
+        }
+
+        private void btnBorrar_Click(object sender, EventArgs e){
+            Borrar();
+            txtEnsayos.Focus();
+        }
+
+        //Metodo para llamar las cosas basicas de calculo
+        private void CalculosBasicos() {
+            txtError.Text = Q(Convert.ToDouble(txtAcierto.Text))
+                                            .ToString();
+            txtMedia.Text = Ex(Convert.ToDouble(txtEnsayos.Text),
+                Convert.ToDouble(txtAcierto.Text)).ToString();
+            txtVx.Text = Vx(Convert.ToDouble(txtEnsayos.Text),
+                Convert.ToDouble(txtAcierto.Text)).ToString();
+            txtDex.Text = Dex(Convert.ToDouble(txtEnsayos.Text),
+                Convert.ToDouble(txtAcierto.Text)).ToString();
+        }
         private void btnCalcular_Click(object sender, EventArgs e){
-            txtError.Text = Q(Convert.ToDouble(txtAcierto.Text)).ToString();
-            txtMedia.Text = Ex(Convert.ToDouble(txtEnsayos.Text),Convert.ToDouble(txtAcierto.Text)).ToString();
-            txtVx.Text = Vx(Convert.ToDouble(txtEnsayos.Text),Convert.ToDouble(txtAcierto.Text)).ToString();
-            txtDex.Text = Dex(Convert.ToDouble(txtEnsayos.Text),Convert.ToDouble(txtAcierto.Text)).ToString();
-            txtPrbabilidad.Text = DistribucionBinomial(Convert.ToDouble(txtEnsayos.Text),Convert.ToDouble(txtAcierto.Text),Convert.ToDouble(txtIntentos.Text)).ToString();
+            double r = 0;
+            try{
+                
+                if (ValEnsayo()==true) {
+                    if (ValAcierto() == true){
+                        if (ValIntentos()==true) {
+                            if (rBtnIgual.Checked == true) {
+                                CalculosBasicos();
+                                txtPrbabilidad.Text = DistribucionBinomial(Convert.ToDouble(txtEnsayos.Text),
+                                    Convert.ToDouble(txtAcierto.Text), Convert.ToDouble(txtIntentos.Text)).ToString();
+                            } else if (rBtnMenor.Checked == true) {
+                                CalculosBasicos();
+                                for (int i = 0; i < Convert.ToInt32(txtIntentos.Text); i++) {
+                                    r += DistribucionBinomial(Convert.ToDouble(txtEnsayos.Text), Convert.ToDouble(txtAcierto.Text), i);
+                                }
+                                txtPrbabilidad.Text = r.ToString();
+                            } else if (rBtnMayor.Checked == true) {
+                                CalculosBasicos();
+                                for (int i = Convert.ToInt32(txtIntentos.Text) + 1; i <= Convert.ToInt32(txtEnsayos.Text); i++) {
+                                    r += DistribucionBinomial(Convert.ToDouble(txtEnsayos.Text), Convert.ToDouble(txtAcierto.Text), i);
+                                }
+                                txtPrbabilidad.Text = r.ToString();
+                            } else if (rBtnMenorIgual.Checked == true) {
+                                CalculosBasicos();
+                                for (int i = 0; i <= Convert.ToInt32(txtIntentos.Text); i++) {
+                                    r += DistribucionBinomial(Convert.ToDouble(txtEnsayos.Text), Convert.ToDouble(txtAcierto.Text), i);
+                                }
+                                txtPrbabilidad.Text = r.ToString();
+                            } else if (rBtnMayorIgual.Checked==true) {
+                                CalculosBasicos();
+                                for (int i = Convert.ToInt32(txtIntentos.Text);i<=Convert.ToInt32(txtEnsayos.Text);i++) {
+                                    r += DistribucionBinomial(Convert.ToDouble(txtEnsayos.Text), Convert.ToDouble(txtAcierto.Text), i);
+                                }
+                                txtPrbabilidad.Text = r.ToString();
+                            }
+                        }else {
+                            MessageBox.Show("Ingrese un número de intentos"
+                                +"\nEl número de ensayo no puede ser negativo");
+                            txtIntentos.Text = "";
+                            txtIntentos.Focus();
+                        }
+                    }else {
+                        MessageBox.Show("Ingrese la probabilidad de acierto corrctamente"
+                            +"\nEsta debe estar comprendida entre 0 y 1");
+                        txtAcierto.Text = "";
+                        txtAcierto.Focus();
+                    }
+                }else {
+                    MessageBox.Show("Ingrese un número de ensayos repetidos válidos"
+                        +"\nEl número de ensayos tiene que ser mayor que 1");
+                    txtEnsayos.Text = "";
+                    txtEnsayos.Focus();
+                }
+            }
+            catch (Exception){
+                if(txtEnsayos.Text == string.Empty) {
+                    MessageBox.Show("Ingrese el numero de ensayos");
+                    txtEnsayos.Text = "";
+                    txtEnsayos.Focus();
+                }else if (txtAcierto.Text == string.Empty) {
+                    MessageBox.Show("Ingrese la probabilidad de acierto entre 0 y 1");
+                    txtAcierto.Text = "";
+                    txtAcierto.Focus();
+                }else if (txtIntentos.Text == string.Empty) {
+                    MessageBox.Show("Ingrese el numero de intentos");
+                    txtIntentos.Text = "";
+                    txtIntentos.Focus();
+                }
+            }
         }
     }
 }
