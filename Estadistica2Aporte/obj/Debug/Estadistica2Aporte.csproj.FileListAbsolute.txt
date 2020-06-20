@@ -22,3 +22,7 @@ C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2
 C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.Exponencial.resources
 C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.Normal.resources
 C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.Poisson.resources
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\bin\Debug\Meta.Numerics.dll
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\bin\Debug\Meta.Numerics.pdb
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\bin\Debug\Meta.Numerics.xml
+C:\Users\Franklin G. Mendoza\Documents\Visual Studio 2019\Proyectos\Estadistica2Aporte\Estadistica2Aporte\obj\Debug\Estadistica2Aporte.csproj.CopyComplete

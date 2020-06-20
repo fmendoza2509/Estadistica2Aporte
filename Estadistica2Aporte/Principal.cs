@@ -83,5 +83,10 @@ namespace Estadistica2Aporte
         {
             AbrirForm(new Poisson());
         }
+
+        private void btnNormal_Click(object sender, EventArgs e)
+        {
+            AbrirForm(new Normal());
+        }
     }
 }

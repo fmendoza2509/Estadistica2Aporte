@@ -167,6 +167,7 @@
             this.btnNormal.TabIndex = 6;
             this.btnNormal.Text = "Normal";
             this.btnNormal.UseVisualStyleBackColor = false;
+            this.btnNormal.Click += new System.EventHandler(this.btnNormal_Click);
             // 
             // btnPoisson
             // 
