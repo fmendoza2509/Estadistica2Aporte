@@ -88,5 +88,17 @@ namespace Estadistica2Aporte
         {
             AbrirForm(new Normal());
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Facultad de Informática y Electrónica"
+                +"\nEscuela de Ingeniería de Sistemas"
+                +"\nCarrera:"
+                +"\n\tIngeniería de Software"
+                +"\nIntegrantes:"
+                +"\n\tJoao Barrionuevo"
+                +"\n\tWellington Cabezas"
+                +"\n\tFranklin Mendoza");
+        }
     }
 }
